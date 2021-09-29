@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "main"
+    "main"
+    "main"
+    "footer"
+    ;
+}
+
+body header {grid-area: header;}
+body main {grid-area: main;}
+body footer {grid-area: footer;}
+
+header{
+    background-color: tomato;
+}
+main{
+    background-color: green;
+}
+footer{
+    background-color: indigo;
+}
+
